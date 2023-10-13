@@ -1,0 +1,47 @@
+.image {
+    height: 80%;
+    width: 80%;
+    border-radius: 1rem;
+    transition: opacity 0.5s ease-in-out;
+    border:5px solid rgba(0, 0, 0, 0.16);
+    
+ 
+    
+   
+   
+}
+
+.button {
+    padding: 1rem;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    transition: 0.1s ease-in;
+    margin: 1rem;
+    background-color: rgba(87, 86, 84, 0.626);
+    color:white;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #00000013;
+    transform: scale(1.1);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+    width: 97vw;
+    
+}
+
+.button-before{
+    position: absolute;
+    left:14vw;;
+}
+
+.button-after{
+    position: absolute;
+    left:80vw;
+}
